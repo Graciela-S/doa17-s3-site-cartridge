@@ -84,7 +84,7 @@ doa17CreateBucket.with{
   parameters{ 
     stringParam("S3_BUCKET",doa17BucketName,"AWS S3 Bucket Name")
     stringParam("AWS_REGION",'',"AWS Region")
-    stringParam("AWS_ACCESS_KEY"´,'',"AWS Access Key")
+    stringParam("AWS_ACCESS_KEY",'',"AWS Access Key")
     stringParam("AWS_SECRET_KEY",'',"AWS Secret Key")
   }
   wrappers {
